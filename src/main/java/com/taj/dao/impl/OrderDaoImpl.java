@@ -126,8 +126,8 @@ public class OrderDaoImpl implements OrderDao {
 
         User user = null;
 
-        //Data Driven Programming
         //writePremiumUsers();
+        //Data Driven Programming
         JSONArray jsonarrayObj = ReadJSON();
         String email = cart.getCustomerInfo().getEmail();
         Boolean premiumUser = false;
@@ -186,6 +186,7 @@ public class OrderDaoImpl implements OrderDao {
 
     private Boolean checkEmailInPremiumUser(JSONArray jsonarrayObj,String email) {
         Boolean val = false;
+        //Lambda Function - Functional Programming
         jsonarrayObj.forEach( userObj -> parseUserObject( (JSONObject) userObj,email));
         val = emailPremium.get(email);
         return val;
