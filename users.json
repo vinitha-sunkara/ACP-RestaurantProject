@@ -1,1 +1,32 @@
-[{"user":{"firstName":"Rahul","lastName":"Dravid","email":"abc@gmail.com"}},{"user":{"firstName":"Dhoni","lastName":"SRK","email":"def@gmail.com"}}]
+[
+  {
+    "user":{
+      "firstName":"Lakshmi",
+      "lastName":"Devi",
+      "email":"abc@gmail.com",
+      "premiumuser":"true",
+      "semipremiumuser":"false",
+      "nonpremiumuser":"false"
+    }
+  },
+  {
+    "user":{
+      "firstName":"Brian",
+      "lastName":"Schultz",
+      "email":"def@gmail.com",
+      "premiumuser":"false",
+      "semipremiumuser":"true",
+      "nonpremiumuser":"false"
+    }
+  },
+  {
+    "user":{
+      "firstName":"Range",
+      "lastName":"Rover",
+      "email":"stk@gmail.com",
+      "premiumuser":"false",
+      "semipremiumuser":"false",
+      "nonpremiumuser":"true"
+    }
+  }
+]
